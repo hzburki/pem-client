@@ -1,2 +1,7 @@
+<!-- Node Files -->
 node_modules
 build
+
+<!-- Dockerfiles -->
+Dockerfile
+Dockerfile.*

@@ -59,6 +59,9 @@ The project structure is as follows:
 ``` 
 ## Getting Started
 
+## Notes
+1. apk add git
+
 1. Build the docker image
 ```bash
   docker build -f Dockerfile.dev -t pem-react-client .
