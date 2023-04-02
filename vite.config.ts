@@ -9,5 +9,9 @@ export default defineConfig({
     alias: {
       '@/': path.join(__dirname, 'src/')
     }
+  },
+  server: {
+    host: true,
+    port: 3000, // This is the port which we will use in docker
   }
 });

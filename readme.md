@@ -57,7 +57,13 @@ The project structure is as follows:
 │   ├── vite.config.ts
 │   └── tsconfig.paths.json
 ``` 
+## Getting Started
 
-
-
-``` 
+1. Build the docker image
+```bash
+  docker build -f Dockerfile.dev -t pem-react-client .
+```
+2. Run the docker image
+```bash
+  docker run --name pem-client -p 3000:3000 -v /app/node_modules -v $(pwd):/app -d pem-react-client
+```
